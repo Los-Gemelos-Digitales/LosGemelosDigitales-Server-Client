@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:example:Window;1",
+    "@type": "Interface",
+    "displayName": "Window",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "GlassIntegrity",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "OpenClosedState",
+            "schema": "boolean"
+        },
+        {
+            "@type": "Property",
+            "name": "SealIntegrity",
+            "schema": "string"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

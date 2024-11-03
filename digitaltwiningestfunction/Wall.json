@@ -1,0 +1,28 @@
+{
+    "@id": "dtmi:example:Wall;1",
+    "@type": "Interface",
+    "displayName": "Wall",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "StructuralIntegrity",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "CrackDetection",
+            "schema": "boolean"
+        },
+        {
+            "@type": "Property",
+            "name": "Vibration",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "HumidityLevel",
+            "schema": "double"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

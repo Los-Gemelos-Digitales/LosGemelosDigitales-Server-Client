@@ -1,0 +1,40 @@
+{
+    "@id": "dtmi:example:Classroom;1",
+    "@type": "Interface",
+    "displayName": "Classroom",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "GasDetection",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "SmokeDetection",
+            "schema": "boolean"
+        },
+        {
+            "@type": "Property",
+            "name": "AirQualityIndex",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "Temperature",
+            "schema": "double"
+        },
+        {
+            "@type": "Relationship",
+            "name": "containsWall",
+            "displayName": "contains Wall",
+            "target": "dtmi:example:Wall;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "containsWindow",
+            "displayName": "contains Window",
+            "target": "dtmi:example:Window;1"
+        }
+    ]
+}
